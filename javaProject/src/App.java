@@ -25,7 +25,7 @@ public class App {
                 }
                 case 3 -> {
                     alterarPessoas alterarPessoas = new alterarPessoas();
-                    alterarPessoas.alterarPessoas(pessoas, scanner);
+                    alterarPessoas.alterarPessoa(pessoas, scanner);
                 }
                 case 4 -> System.out.println("Excluir");
                 case 5 -> loop = false;

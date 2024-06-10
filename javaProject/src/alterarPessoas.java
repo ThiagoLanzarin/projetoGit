@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class alterarPessoas {
-    public void alterarPessoas(String[] pessoas, Scanner scanner) {
+    public void alterarPessoa(String[] pessoas, Scanner scanner) {
         for (int i = 0; i < pessoas.length; i++) {
             if (pessoas[i] != null) {
                 System.out.println(i+" - "+pessoas[i]);
