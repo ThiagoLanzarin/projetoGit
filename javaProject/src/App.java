@@ -23,7 +23,10 @@ public class App {
                     listarPessoa listarPessoas = new listarPessoa();
                     listarPessoas.listarPessoas(pessoas);
                 }
-                case 3 -> System.out.println("Alterar");
+                case 3 -> {
+                    alterarPessoas alterarPessoas = new alterarPessoas();
+                    alterarPessoas.alterarPessoas(pessoas, scanner);
+                }
                 case 4 -> System.out.println("Excluir");
                 case 5 -> loop = false;
                 default -> System.out.println("Opção inválida");
