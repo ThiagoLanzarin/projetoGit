@@ -27,7 +27,10 @@ public class App {
                     alterarPessoas alterarPessoas = new alterarPessoas();
                     alterarPessoas.alterarPessoa(pessoas, scanner);
                 }
-                case 4 -> System.out.println("Excluir");
+                case 4 -> {
+                    excluirPessoa excluirPessoa = new excluirPessoa();
+                    excluirPessoa.deletarPessoa(pessoas, scanner);
+                }
                 case 5 -> loop = false;
                 default -> System.out.println("Opção inválida");
             }
